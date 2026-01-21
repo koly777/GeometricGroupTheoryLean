@@ -21,18 +21,18 @@ This file contains lemmas about coarse equivalences between coarse spaces.
 * `CoarseEquiv.univ_subset_controlled_preimage_image`: A coarse equivalence is coarsely surjective.
 * `CoarseEquiv.coarselyBoundedSpace`: A coarse equivalence transfers `CoarselyBoundedSpace`
   from domain to codomain.
-* `CoarseEquiv.coarselyConnected`: A coarse equivalence transfers `CoarselyConnectedSpace`
+* `CoarseEquiv.coarselyConnectedSpace`: A coarse equivalence transfers `CoarselyConnectedSpace`
   from domain to codomain.
 * `CoarseEquiv.fg`: Finite generation is preserved by coarse equivalences.
 
 ### Set properties
-* `CoarseEquiv.isCoarselyBounded_image`: The image of a set under a coarse equivalence is
+* `CoarseEquiv.isCoarselyBounded_image'`: The image of a set under a coarse equivalence is
   coarsely bounded iff the original set is.
 * `CoarseEquiv.IsCoarselyBounded.preimage`: The preimage of a coarsely bounded set under
   a coarse equivalence is coarsely bounded.
 
 ### Entourage properties
-* `CoarseEquiv.isControlled_image`: The image of an entourage under a coarse equivalence
+* `CoarseEquiv.isControlled_image_iff`: The image of an entourage under a coarse equivalence
   is controlled iff the original entourage is.
 * `CoarseEquiv.isControlled_comap`: The comap of a controlled entourage under a coarse
   equivalence is controlled.
