@@ -34,7 +34,7 @@ The classical statement of Švarc-Milnor assumes the group is equipped with a wo
 a finite generating set. We deliberately avoid this, instead requiring typeclass assumptions
 that any word metric would satisfy:
 
-* `[DiscreteTopology G]`: the metric is discrete
+* `[DiscreteTopology G]`: the metric generates the discrete topology
 * `[ProperSpace G]`: closed balls are compact (finite for discrete spaces)
 * `[IsIsometricSMul G G]`: the metric is left-invariant
 
@@ -66,13 +66,13 @@ the coarse equivalence to `G`: first as a coarse space, then as a group.
 
 The file uses `to_additive` throughout to generate additive versions automatically.
 
-## References
-
-* J. Roe, "Lectures on Coarse Geometry"
-
 ## Tags
 
 coarse geometry, group action, Švarc-Milnor lemma, quasi-isometry
+
+## References
+
+* J. Roe, "Lectures on Coarse Geometry"
 -/
 
 open Metric
