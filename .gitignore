@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+._*
+
+# VS Code
+.vscode/
+
+# Lean 4 build artifacts
+.lake/
+build/
